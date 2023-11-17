@@ -8,8 +8,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface CustomerService  {
-    Optional <Customer> getById(Long id);
+     Customer getById(Long id);
     void save (Customer customer);
     void delete(Long id);
-    Optional<List<Customer>>getAll();
+    List<Customer>getAll();
 }
